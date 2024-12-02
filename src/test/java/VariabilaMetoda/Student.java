@@ -2,7 +2,7 @@ package VariabilaMetoda;
 
 public class Student {
 
-    //clasa=sablon care defineste proprietetile si comportamentul unei entitati specifice
+    //clasa=sablon care defineste proprietatile si comportamentul unei entitati specifice
 
     //intr-un fisier java putem avea mai multe clase diferentiate pe baza numelui (nu este un practice bun sa ai mai multe clase cu acelasi nume)
 
