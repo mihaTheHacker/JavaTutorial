@@ -40,6 +40,10 @@ public class Book {
         System.out.println("The book ISBN is: " + ISBN);
         System.out.println("The book language is: " + Language);
         System.out.println("The book genre is: " + Genre);
+        System.out.println("The book format is: " + Format);
+        System.out.println("The book cover is: " + Cover);
+        System.out.println("The book price is: " + Price);
+        System.out.println("The book has a movie adaptation: " + movieAdaptation);
 
     }
 

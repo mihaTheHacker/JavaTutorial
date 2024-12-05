@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42de26ce-446d-432a-a2e0-b4661effd515" name="Changes" comment="- rearranged code layout for improved clarity">
-      <change afterPath="$PROJECT_DIR$/src/test/java/VariabilaMetoda/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="42de26ce-446d-432a-a2e0-b4661effd515" name="Changes" comment="- created a new class called book with variables and a method that displays book info" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,7 +47,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.Book">
+  <component name="RunManager" selected="TestNG.Book.displayBookInfo">
     <configuration name="Book" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaTutorial" />
       <extension name="coverage">
@@ -62,6 +59,24 @@
       <option name="PACKAGE_NAME" value="VariabilaMetoda" />
       <option name="MAIN_CLASS_NAME" value="VariabilaMetoda.Book" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Book.displayBookInfo" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JavaTutorial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="VariabilaMetoda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="VariabilaMetoda" />
+      <option name="MAIN_CLASS_NAME" value="VariabilaMetoda.Book" />
+      <option name="METHOD_NAME" value="displayBookInfo" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -88,6 +103,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Book.displayBookInfo" />
         <item itemvalue="TestNG.Book" />
         <item itemvalue="TestNG.Student.prezentareStudent" />
       </list>
@@ -111,7 +127,7 @@
       <updated>1733144944185</updated>
       <workItem from="1733144945310" duration="13127000" />
       <workItem from="1733218132237" duration="5501000" />
-      <workItem from="1733321841058" duration="2942000" />
+      <workItem from="1733321841058" duration="3689000" />
     </task>
     <task id="LOCAL-00001" summary="Project created">
       <option name="closed" value="true" />
@@ -153,7 +169,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733397699577</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="- created a new class called book with variables and a method that displays book info">
+      <option name="closed" value="true" />
+      <created>1733398879037</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1733398879037</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,7 +200,8 @@
     <MESSAGE value="- fixed typo" />
     <MESSAGE value="- added variables and methods" />
     <MESSAGE value="- rearranged code layout for improved clarity" />
-    <option name="LAST_COMMIT_MESSAGE" value="- rearranged code layout for improved clarity" />
+    <MESSAGE value="- created a new class called book with variables and a method that displays book info" />
+    <option name="LAST_COMMIT_MESSAGE" value="- created a new class called book with variables and a method that displays book info" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
