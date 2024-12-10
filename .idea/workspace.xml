@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42de26ce-446d-432a-a2e0-b4661effd515" name="Changes" comment="- created a new class called book with variables and a method that displays book info" />
+    <list default="true" id="42de26ce-446d-432a-a2e0-b4661effd515" name="Changes" comment="- added extra methods to display all book info">
+      <change afterPath="$PROJECT_DIR$/src/test/java/VariabilaMetoda/Masina.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,8 +35,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.Book.displayBookInfo.executor": "Run",
     "TestNG.Book.executor": "Run",
+    "TestNG.Masina.metodaTest.executor": "Run",
     "TestNG.Student.prezentareStudent.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
@@ -47,7 +53,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.Book.displayBookInfo">
+  <component name="RunManager" selected="TestNG.Masina.metodaTest">
     <configuration name="Book" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaTutorial" />
       <extension name="coverage">
@@ -83,6 +89,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Masina.metodaTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JavaTutorial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="VariabilaMetoda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="VariabilaMetoda" />
+      <option name="MAIN_CLASS_NAME" value="VariabilaMetoda.Masina" />
+      <option name="METHOD_NAME" value="metodaTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Student.prezentareStudent" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaTutorial" />
       <extension name="coverage">
@@ -103,6 +127,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Masina.metodaTest" />
         <item itemvalue="TestNG.Book.displayBookInfo" />
         <item itemvalue="TestNG.Book" />
         <item itemvalue="TestNG.Student.prezentareStudent" />
@@ -112,8 +137,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.21565.193" />
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-IU-243.21565.193" />
       </set>
     </attachedChunks>
   </component>
@@ -127,7 +152,10 @@
       <updated>1733144944185</updated>
       <workItem from="1733144945310" duration="13127000" />
       <workItem from="1733218132237" duration="5501000" />
-      <workItem from="1733321841058" duration="3689000" />
+      <workItem from="1733321841058" duration="8147000" />
+      <workItem from="1733735260758" duration="600000" />
+      <workItem from="1733738082942" duration="13000" />
+      <workItem from="1733831170218" duration="1269000" />
     </task>
     <task id="LOCAL-00001" summary="Project created">
       <option name="closed" value="true" />
@@ -177,7 +205,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733398879037</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="- added extra methods to display all book info">
+      <option name="closed" value="true" />
+      <created>1733400504501</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1733400504501</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,7 +237,8 @@
     <MESSAGE value="- added variables and methods" />
     <MESSAGE value="- rearranged code layout for improved clarity" />
     <MESSAGE value="- created a new class called book with variables and a method that displays book info" />
-    <option name="LAST_COMMIT_MESSAGE" value="- created a new class called book with variables and a method that displays book info" />
+    <MESSAGE value="- added extra methods to display all book info" />
+    <option name="LAST_COMMIT_MESSAGE" value="- added extra methods to display all book info" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
