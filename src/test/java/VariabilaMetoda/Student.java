@@ -1,5 +1,6 @@
 package VariabilaMetoda;
 
+import java.sql.SQLOutput;
 import org.testng.annotations.Test;
 
 public class Student {
@@ -62,7 +63,7 @@ public class Student {
         System.out.println("Are studentul diploma?: " + AreDiploma);
 
         calculMedie();
-
+        System.out.println("Salariul studentului este: " + getSalariu());
     }
 
     public void calculMedie() {
@@ -72,6 +73,12 @@ public class Student {
         Integer medie = (nota1 + nota2 + nota3) / 3;
         System.out.println("Media studentului este: " + medie);
 
+    }
+
+    //metoda cu return
+    public Integer getSalariu() {
+      Integer salariu = 5000;
+      return salariu;
     }
 
 }

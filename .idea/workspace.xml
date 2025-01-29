@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42de26ce-446d-432a-a2e0-b4661effd515" name="Changes" comment="-for practice purposes created a new class Locuinta.java">
-      <change afterPath="$PROJECT_DIR$/src/test/java/VariabilaMetoda/StructuriAlternative.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/VariabilaMetoda/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/VariabilaMetoda/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,35 +32,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG.Book.displayBookInfo.executor": "Run",
-    "TestNG.Book.executor": "Run",
-    "TestNG.Locuinta.executor": "Run",
-    "TestNG.Masina.executor": "Run",
-    "TestNG.Masina.metodaTest.executor": "Run",
-    "TestNG.StructuriAlternative.executor": "Run",
-    "TestNG.StructuriAlternative.metodaTest.executor": "Run",
-    "TestNG.Student.prezentareStudent.executor": "Run",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/mibudeanu/IdeaProjects/JavaTutorial/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.editor",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.Book.displayBookInfo.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Book.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Locuinta.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Masina.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Masina.metodaTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.StructuriAlternative.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.StructuriAlternative.metodaTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Student.prezentareStudent.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/mibudeanu/IdeaProjects/JavaTutorial/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="TestNG.StructuriAlternative">
+}</component>
+  <component name="RunManager" selected="TestNG.Student.prezentareStudent">
     <configuration name="Locuinta" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaTutorial" />
       <extension name="coverage">
@@ -89,24 +89,6 @@
       <option name="PACKAGE_NAME" value="VariabilaMetoda" />
       <option name="MAIN_CLASS_NAME" value="VariabilaMetoda.Masina" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Masina.metodaTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="JavaTutorial" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="VariabilaMetoda.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="VariabilaMetoda" />
-      <option name="MAIN_CLASS_NAME" value="VariabilaMetoda.Masina" />
-      <option name="METHOD_NAME" value="metodaTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -148,21 +130,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Student.prezentareStudent" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JavaTutorial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="VariabilaMetoda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="VariabilaMetoda" />
+      <option name="MAIN_CLASS_NAME" value="VariabilaMetoda.Student" />
+      <option name="METHOD_NAME" value="prezentareStudent" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Student.prezentareStudent" />
         <item itemvalue="TestNG.StructuriAlternative" />
         <item itemvalue="TestNG.StructuriAlternative.metodaTest" />
         <item itemvalue="TestNG.Locuinta" />
         <item itemvalue="TestNG.Masina" />
-        <item itemvalue="TestNG.Masina.metodaTest" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.218" />
-        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.218" />
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.153" />
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-IU-243.23654.153" />
       </set>
     </attachedChunks>
   </component>
@@ -187,6 +187,7 @@
       <workItem from="1737125312728" duration="28000" />
       <workItem from="1737126228681" duration="2495000" />
       <workItem from="1737554457591" duration="3768000" />
+      <workItem from="1737982717293" duration="1705000" />
     </task>
     <task id="LOCAL-00001" summary="Project created">
       <option name="closed" value="true" />
