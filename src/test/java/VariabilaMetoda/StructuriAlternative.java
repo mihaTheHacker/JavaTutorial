@@ -12,6 +12,7 @@ public class StructuriAlternative {
         metodaVerificareNumar(5);
         metodaVerificareNumarParPozitiv(7);
         metodaVerificareNumarParPozitiv(-7);
+        ZileleSaptamanii(3);
 
     }
 
@@ -44,6 +45,29 @@ public class StructuriAlternative {
             System.out.println("Numarul este 0");
         }
 
+    }
+
+    //exemplu switch-case
+    public void ZileleSaptamanii(Integer zi) {
+        switch (zi) {
+            case 1:
+                System.out.println("Astazi este Luni");
+                break;
+            case 2:
+                System.out.println("Astazi este Marti");
+                break;
+            case 3:
+                System.out.println("Astazi este Miercuri");
+                break;
+            case 4:
+                System.out.println("Astazi este Joi");
+                break;
+            case 5:
+                System.out.println("Astazi este Vineri");
+                break;
+            default:
+                System.out.println("Nu mai sunt alte zile in saptamana");
+        }
     }
 
 }
