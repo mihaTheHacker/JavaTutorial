@@ -1,5 +1,6 @@
 package VariabilaMetoda;
 
+import java.util.Scanner;
 import org.testng.annotations.Test;
 
 public class Masina {
@@ -16,6 +17,8 @@ public class Masina {
 
         calculMedie(5.0, 7.0);
         calculMedie(10.0, 15.0);
+
+//        citireNote();
     }
     public void dateMasina(String param1, String param2, Integer param3) {
         Marca = param1;
@@ -33,5 +36,15 @@ public class Masina {
         Double medie = (numar1 + numar2) / 2;
         System.out.println("Media numerelor " + numar1 + " si " + numar2 + " este: " + medie);
     }
+
+//    public void citireNote(){
+//        Scanner scanner = new Scanner(System.in);
+//        int nota = scanner.nextInt();
+//        while(nota < 0 || nota > 10){
+//            System.out.println("Nota introdusa nu este corecta. Introduceti o nota intre 0 si 10");
+//            nota = scanner.nextInt();
+//        }
+//        System.out.println("Nota introdusa este intre 1 si 10: " + nota);
+//    }
 
 }
