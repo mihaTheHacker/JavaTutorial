@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42de26ce-446d-432a-a2e0-b4661effd515" name="Changes" comment="-added switch-case method">
+    <list default="true" id="42de26ce-446d-432a-a2e0-b4661effd515" name="Changes" comment="- imported scanner&#10;- created method citireNote and exemplified while structure&#10;- created method printare valori for practice purposes of the while structure&#10;- created method printareValoriDoWhile and exemplified the do while structure &#10;- created method printareValoriFor and exemplified the for structure">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Multimi/Multimi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/VariabilaMetoda/Masina.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/VariabilaMetoda/Masina.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +43,9 @@
     "TestNG.Locuinta.executor": "Run",
     "TestNG.Masina.executor": "Run",
     "TestNG.Masina.metodaTest.executor": "Run",
+    "TestNG.Multimi (1).executor": "Run",
+    "TestNG.Multimi.executor": "Run",
+    "TestNG.Multimi.metodaTest.executor": "Run",
     "TestNG.StructuriAlternative (1).executor": "Run",
     "TestNG.StructuriAlternative (2).executor": "Run",
     "TestNG.StructuriAlternative (3).executor": "Debug",
@@ -65,7 +67,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="TestNG.Multimi.metodaTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="JavaTutorial" />
@@ -97,16 +99,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StructuriAlternative (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Multimi (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaTutorial" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="VariabilaMetoda.*" />
+          <option name="PATTERN" value="Multimi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="VariabilaMetoda" />
-      <option name="MAIN_CLASS_NAME" value="VariabilaMetoda.StructuriAlternative" />
+      <option name="PACKAGE_NAME" value="Multimi" />
+      <option name="MAIN_CLASS_NAME" value="Multimi.Multimi" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -114,16 +116,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StructuriAlternative (3)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Multimi" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaTutorial" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="VariabilaMetoda.*" />
+          <option name="PATTERN" value="Multimi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="VariabilaMetoda" />
-      <option name="MAIN_CLASS_NAME" value="VariabilaMetoda.StructuriAlternative" />
+      <option name="PACKAGE_NAME" value="Multimi" />
+      <option name="MAIN_CLASS_NAME" value="Multimi.Multimi" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -131,16 +133,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StructuriAlternative.metodaTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Multimi.metodaTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaTutorial" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="VariabilaMetoda.*" />
+          <option name="PATTERN" value="Multimi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="VariabilaMetoda" />
-      <option name="MAIN_CLASS_NAME" value="VariabilaMetoda.StructuriAlternative" />
+      <option name="PACKAGE_NAME" value="Multimi" />
+      <option name="MAIN_CLASS_NAME" value="Multimi.Multimi" />
       <option name="METHOD_NAME" value="metodaTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -151,19 +153,19 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Multimi.metodaTest" />
+        <item itemvalue="TestNG.Multimi (1)" />
+        <item itemvalue="TestNG.Multimi" />
         <item itemvalue="Application.Main" />
         <item itemvalue="TestNG.Masina.metodaTest" />
-        <item itemvalue="TestNG.StructuriAlternative (3)" />
-        <item itemvalue="TestNG.StructuriAlternative (2)" />
-        <item itemvalue="TestNG.StructuriAlternative.metodaTest" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.153" />
-        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-IU-243.23654.153" />
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.189" />
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-IU-243.23654.189" />
       </set>
     </attachedChunks>
   </component>
@@ -189,7 +191,10 @@
       <workItem from="1737126228681" duration="2495000" />
       <workItem from="1737554457591" duration="3768000" />
       <workItem from="1737982717293" duration="4872000" />
-      <workItem from="1738176786091" duration="12023000" />
+      <workItem from="1738176786091" duration="13072000" />
+      <workItem from="1739360631234" duration="1473000" />
+      <workItem from="1739448101116" duration="2392000" />
+      <workItem from="1739802097696" duration="8816000" />
     </task>
     <task id="LOCAL-00001" summary="Project created">
       <option name="closed" value="true" />
@@ -279,7 +284,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738176835127</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="- imported scanner&#10;- created method citireNote and exemplified while structure&#10;- created method printare valori for practice purposes of the while structure&#10;- created method printareValoriDoWhile and exemplified the do while structure &#10;- created method printareValoriFor and exemplified the for structure">
+      <option name="closed" value="true" />
+      <created>1738344390134</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1738344390134</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -308,7 +321,8 @@
     <MESSAGE value="-for practice purposes created a new class Locuinta.java" />
     <MESSAGE value="-added a return method" />
     <MESSAGE value="-added switch-case method" />
-    <option name="LAST_COMMIT_MESSAGE" value="-added switch-case method" />
+    <MESSAGE value="- imported scanner&#10;- created method citireNote and exemplified while structure&#10;- created method printare valori for practice purposes of the while structure&#10;- created method printareValoriDoWhile and exemplified the do while structure &#10;- created method printareValoriFor and exemplified the for structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="- imported scanner&#10;- created method citireNote and exemplified while structure&#10;- created method printare valori for practice purposes of the while structure&#10;- created method printareValoriDoWhile and exemplified the do while structure &#10;- created method printareValoriFor and exemplified the for structure" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
