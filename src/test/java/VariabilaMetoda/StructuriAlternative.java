@@ -7,11 +7,11 @@ public class StructuriAlternative {
     //structuri alternative=if-then-else; switch-case
     @Test
     public void metodaTest() {
-        metodaVerificareNumar(7);
-        metodaVerificareNumar(3);
-        metodaVerificareNumar(5);
-        metodaVerificareNumarParPozitiv(7);
-        metodaVerificareNumarParPozitiv(-7);
+//        metodaVerificareNumar(7);
+//        metodaVerificareNumar(3);
+//        metodaVerificareNumar(5);
+//        metodaVerificareNumarParPozitiv(7);
+//        metodaVerificareNumarParPozitiv(-7);
         ZileleSaptamanii(3);
 
     }

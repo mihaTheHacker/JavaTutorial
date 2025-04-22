@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42de26ce-446d-432a-a2e0-b4661effd515" name="Changes" comment="- imported scanner&#10;- created method citireNote and exemplified while structure&#10;- created method printare valori for practice purposes of the while structure&#10;- created method printareValoriDoWhile and exemplified the do while structure &#10;- created method printareValoriFor and exemplified the for structure">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Multimi/Multimi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ObiectConstructor/Avion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ObiectConstructor/AvionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/VariabilaMetoda/StructuriAlternative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/VariabilaMetoda/StructuriAlternative.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +40,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.AvionTest.executor": "Run",
+    "TestNG.AvionTest.metodaTest.executor": "Run",
     "TestNG.Book.displayBookInfo.executor": "Run",
     "TestNG.Book.executor": "Run",
     "TestNG.Locuinta.executor": "Run",
@@ -67,30 +71,34 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.Multimi.metodaTest">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+  <component name="RunManager" selected="TestNG.AvionTest">
+    <configuration name="AvionTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaTutorial" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="ObiectConstructor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="ObiectConstructor" />
+      <option name="MAIN_CLASS_NAME" value="ObiectConstructor.AvionTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Masina.metodaTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AvionTest.metodaTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaTutorial" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="VariabilaMetoda.*" />
+          <option name="PATTERN" value="ObiectConstructor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="VariabilaMetoda" />
-      <option name="MAIN_CLASS_NAME" value="VariabilaMetoda.Masina" />
+      <option name="PACKAGE_NAME" value="ObiectConstructor" />
+      <option name="MAIN_CLASS_NAME" value="ObiectConstructor.AvionTest" />
       <option name="METHOD_NAME" value="metodaTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -100,23 +108,6 @@
       </method>
     </configuration>
     <configuration name="Multimi (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="JavaTutorial" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Multimi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Multimi" />
-      <option name="MAIN_CLASS_NAME" value="Multimi.Multimi" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Multimi" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaTutorial" />
       <extension name="coverage">
         <pattern>
@@ -151,21 +142,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StructuriAlternative.metodaTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JavaTutorial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="VariabilaMetoda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="VariabilaMetoda" />
+      <option name="MAIN_CLASS_NAME" value="VariabilaMetoda.StructuriAlternative" />
+      <option name="METHOD_NAME" value="metodaTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.AvionTest" />
+        <item itemvalue="TestNG.AvionTest.metodaTest" />
+        <item itemvalue="TestNG.StructuriAlternative.metodaTest" />
         <item itemvalue="TestNG.Multimi.metodaTest" />
         <item itemvalue="TestNG.Multimi (1)" />
-        <item itemvalue="TestNG.Multimi" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="TestNG.Masina.metodaTest" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.189" />
-        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-IU-243.23654.189" />
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
       </set>
     </attachedChunks>
   </component>
@@ -195,6 +204,13 @@
       <workItem from="1739360631234" duration="1473000" />
       <workItem from="1739448101116" duration="2392000" />
       <workItem from="1739802097696" duration="8816000" />
+      <workItem from="1741856465139" duration="591000" />
+      <workItem from="1742398179895" duration="7797000" />
+      <workItem from="1743055123939" duration="1255000" />
+      <workItem from="1743145385496" duration="587000" />
+      <workItem from="1743449219870" duration="9000" />
+      <workItem from="1744382313753" duration="193000" />
+      <workItem from="1745320183492" duration="9342000" />
     </task>
     <task id="LOCAL-00001" summary="Project created">
       <option name="closed" value="true" />
