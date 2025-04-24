@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42de26ce-446d-432a-a2e0-b4661effd515" name="Changes" comment="- imported scanner&#10;- created method citireNote and exemplified while structure&#10;- created method printare valori for practice purposes of the while structure&#10;- created method printareValoriDoWhile and exemplified the do while structure &#10;- created method printareValoriFor and exemplified the for structure">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ObiectConstructor/Avion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ObiectConstructor/AvionTest.java" afterDir="false" />
+    <list default="true" id="42de26ce-446d-432a-a2e0-b4661effd515" name="Changes" comment="- created a new package ObiectConstructor&#10;- created 2 new classes Avion.java and AvionTest.java">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Exceptii/Exceptia1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Exceptii/ExceptieCustom.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/VariabilaMetoda/StructuriAlternative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/VariabilaMetoda/StructuriAlternative.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,19 +22,24 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2pf6mI89QnsFnWz9S2671mSkGMz" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Exceptia1.executor": "Run",
     "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -56,7 +60,7 @@
     "TestNG.StructuriAlternative.executor": "Run",
     "TestNG.StructuriAlternative.metodaTest.executor": "Run",
     "TestNG.Student.prezentareStudent.executor": "Run",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "Exceptii",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -71,7 +75,20 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.AvionTest">
+  <component name="RunManager" selected="Application.Exceptia1">
+    <configuration name="Exceptia1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exceptii.Exceptia1" />
+      <module name="JavaTutorial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Exceptii.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AvionTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaTutorial" />
       <extension name="coverage">
@@ -101,23 +118,6 @@
       <option name="MAIN_CLASS_NAME" value="ObiectConstructor.AvionTest" />
       <option name="METHOD_NAME" value="metodaTest" />
       <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Multimi (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="JavaTutorial" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Multimi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Multimi" />
-      <option name="MAIN_CLASS_NAME" value="Multimi.Multimi" />
-      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -162,19 +162,19 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Exceptia1" />
         <item itemvalue="TestNG.AvionTest" />
         <item itemvalue="TestNG.AvionTest.metodaTest" />
         <item itemvalue="TestNG.StructuriAlternative.metodaTest" />
         <item itemvalue="TestNG.Multimi.metodaTest" />
-        <item itemvalue="TestNG.Multimi (1)" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
-        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.23774.435" />
+        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-IU-251.23774.435" />
       </set>
     </attachedChunks>
   </component>
@@ -210,7 +210,9 @@
       <workItem from="1743145385496" duration="587000" />
       <workItem from="1743449219870" duration="9000" />
       <workItem from="1744382313753" duration="193000" />
-      <workItem from="1745320183492" duration="9342000" />
+      <workItem from="1745320183492" duration="12172000" />
+      <workItem from="1745393261491" duration="4000" />
+      <workItem from="1745393296287" duration="10012000" />
     </task>
     <task id="LOCAL-00001" summary="Project created">
       <option name="closed" value="true" />
@@ -308,7 +310,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738344390134</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="- created a new package ObiectConstructor&#10;- created 2 new classes Avion.java and AvionTest.java">
+      <option name="closed" value="true" />
+      <created>1745334531431</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1745334531431</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -338,7 +348,8 @@
     <MESSAGE value="-added a return method" />
     <MESSAGE value="-added switch-case method" />
     <MESSAGE value="- imported scanner&#10;- created method citireNote and exemplified while structure&#10;- created method printare valori for practice purposes of the while structure&#10;- created method printareValoriDoWhile and exemplified the do while structure &#10;- created method printareValoriFor and exemplified the for structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="- imported scanner&#10;- created method citireNote and exemplified while structure&#10;- created method printare valori for practice purposes of the while structure&#10;- created method printareValoriDoWhile and exemplified the do while structure &#10;- created method printareValoriFor and exemplified the for structure" />
+    <MESSAGE value="- created a new package ObiectConstructor&#10;- created 2 new classes Avion.java and AvionTest.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="- created a new package ObiectConstructor&#10;- created 2 new classes Avion.java and AvionTest.java" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
