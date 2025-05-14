@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42de26ce-446d-432a-a2e0-b4661effd515" name="Changes" comment="- created a new package ObiectConstructor&#10;- created 2 new classes Avion.java and AvionTest.java">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Exceptii/Exceptia1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Exceptii/ExceptieCustom.java" afterDir="false" />
+    <list default="true" id="42de26ce-446d-432a-a2e0-b4661effd515" name="Changes" comment="- created a new package Exceptii with 2 classes">
+      <change afterPath="$PROJECT_DIR$/src/test/java/OOP/Angajat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/OOP/OOPTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/OOP/Persoana.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/OOP/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +26,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="Exceptii" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -33,6 +35,9 @@
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2pf6mI89QnsFnWz9S2671mSkGMz" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -54,13 +59,15 @@
     "TestNG.Multimi (1).executor": "Run",
     "TestNG.Multimi.executor": "Run",
     "TestNG.Multimi.metodaTest.executor": "Run",
+    "TestNG.OOPTest.executor": "Run",
+    "TestNG.OOPTest.metodaTest.executor": "Run",
     "TestNG.StructuriAlternative (1).executor": "Run",
     "TestNG.StructuriAlternative (2).executor": "Run",
     "TestNG.StructuriAlternative (3).executor": "Debug",
     "TestNG.StructuriAlternative.executor": "Run",
     "TestNG.StructuriAlternative.metodaTest.executor": "Run",
     "TestNG.Student.prezentareStudent.executor": "Run",
-    "git-widget-placeholder": "Exceptii",
+    "git-widget-placeholder": "OOP-Lesson12",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -68,14 +75,14 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/mibudeanu/IdeaProjects/JavaTutorial/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "preferences.editor",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Exceptia1">
+  <component name="RunManager" selected="TestNG.OOPTest.metodaTest">
     <configuration name="Exceptia1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Exceptii.Exceptia1" />
       <module name="JavaTutorial" />
@@ -124,34 +131,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Multimi.metodaTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="OOPTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaTutorial" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Multimi.*" />
+          <option name="PATTERN" value="OOP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Multimi" />
-      <option name="MAIN_CLASS_NAME" value="Multimi.Multimi" />
-      <option name="METHOD_NAME" value="metodaTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="OOP" />
+      <option name="MAIN_CLASS_NAME" value="OOP.OOPTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StructuriAlternative.metodaTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="OOPTest.metodaTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaTutorial" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="VariabilaMetoda.*" />
+          <option name="PATTERN" value="OOP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="VariabilaMetoda" />
-      <option name="MAIN_CLASS_NAME" value="VariabilaMetoda.StructuriAlternative" />
+      <option name="PACKAGE_NAME" value="OOP" />
+      <option name="MAIN_CLASS_NAME" value="OOP.OOPTest" />
       <option name="METHOD_NAME" value="metodaTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -162,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.OOPTest.metodaTest" />
+        <item itemvalue="TestNG.OOPTest" />
         <item itemvalue="Application.Exceptia1" />
         <item itemvalue="TestNG.AvionTest" />
         <item itemvalue="TestNG.AvionTest.metodaTest" />
-        <item itemvalue="TestNG.StructuriAlternative.metodaTest" />
-        <item itemvalue="TestNG.Multimi.metodaTest" />
       </list>
     </recent_temporary>
   </component>
@@ -212,7 +218,10 @@
       <workItem from="1744382313753" duration="193000" />
       <workItem from="1745320183492" duration="12172000" />
       <workItem from="1745393261491" duration="4000" />
-      <workItem from="1745393296287" duration="10012000" />
+      <workItem from="1745393296287" duration="12724000" />
+      <workItem from="1745840346796" duration="8589000" />
+      <workItem from="1746189800064" duration="1246000" />
+      <workItem from="1747219298981" duration="2322000" />
     </task>
     <task id="LOCAL-00001" summary="Project created">
       <option name="closed" value="true" />
@@ -318,7 +327,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745334531431</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="- created a new package Exceptii with 2 classes">
+      <option name="closed" value="true" />
+      <created>1745487479964</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1745487479964</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -329,7 +346,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/Exceptii" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -349,7 +378,8 @@
     <MESSAGE value="-added switch-case method" />
     <MESSAGE value="- imported scanner&#10;- created method citireNote and exemplified while structure&#10;- created method printare valori for practice purposes of the while structure&#10;- created method printareValoriDoWhile and exemplified the do while structure &#10;- created method printareValoriFor and exemplified the for structure" />
     <MESSAGE value="- created a new package ObiectConstructor&#10;- created 2 new classes Avion.java and AvionTest.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="- created a new package ObiectConstructor&#10;- created 2 new classes Avion.java and AvionTest.java" />
+    <MESSAGE value="- created a new package Exceptii with 2 classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="- created a new package Exceptii with 2 classes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
