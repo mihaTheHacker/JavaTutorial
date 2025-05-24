@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42de26ce-446d-432a-a2e0-b4661effd515" name="Changes" comment="- created a new package OOP&#10;- Created 4 classes">
+    <list default="true" id="42de26ce-446d-432a-a2e0-b4661effd515" name="Changes" comment="- formatting">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,7 +22,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Exceptii" />
+        <entry key="$PROJECT_DIR$" value="OOP-Lesson12" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -220,7 +220,8 @@
       <workItem from="1747219298981" duration="2461000" />
       <workItem from="1747227202459" duration="17000" />
       <workItem from="1747227463072" duration="11000" />
-      <workItem from="1748114171996" duration="662000" />
+      <workItem from="1748114171996" duration="1620000" />
+      <workItem from="1748117040184" duration="652000" />
     </task>
     <task id="LOCAL-00001" summary="Project created">
       <option name="closed" value="true" />
@@ -350,7 +351,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748114218302</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="- formatting">
+      <option name="closed" value="true" />
+      <created>1748115438474</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1748115438475</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -395,7 +404,8 @@
     <MESSAGE value="- created a new package ObiectConstructor&#10;- created 2 new classes Avion.java and AvionTest.java" />
     <MESSAGE value="- created a new package Exceptii with 2 classes" />
     <MESSAGE value="- created a new package OOP&#10;- Created 4 classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="- created a new package OOP&#10;- Created 4 classes" />
+    <MESSAGE value="- formatting" />
+    <option name="LAST_COMMIT_MESSAGE" value="- formatting" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
