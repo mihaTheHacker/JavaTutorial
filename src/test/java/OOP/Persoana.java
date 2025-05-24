@@ -20,9 +20,10 @@ public class Persoana {
         this.prenume = prenume;
         this.varsta = varsta;
     }
-public void infoPersoana(){
-    System.out.println("Nume: " + nume);
-    System.out.println("Prenume: " + prenume);
-    System.out.println("Varsta: " + varsta);
-}
+
+    public void infoPersoana() {
+        System.out.println("Nume: " + nume);
+        System.out.println("Prenume: " + prenume);
+        System.out.println("Varsta: " + varsta);
+    }
 }
