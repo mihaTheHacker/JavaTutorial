@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42de26ce-446d-432a-a2e0-b4661effd515" name="Changes" comment="- created a new package Exceptii with 2 classes">
-      <change afterPath="$PROJECT_DIR$/src/test/java/OOP/Angajat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/OOP/OOPTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/OOP/Persoana.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/OOP/Student.java" afterDir="false" />
+    <list default="true" id="42de26ce-446d-432a-a2e0-b4661effd515" name="Changes" comment="- created a new package OOP&#10;- Created 4 classes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,46 +38,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Exceptia1.executor": "Run",
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG.AvionTest.executor": "Run",
-    "TestNG.AvionTest.metodaTest.executor": "Run",
-    "TestNG.Book.displayBookInfo.executor": "Run",
-    "TestNG.Book.executor": "Run",
-    "TestNG.Locuinta.executor": "Run",
-    "TestNG.Masina.executor": "Run",
-    "TestNG.Masina.metodaTest.executor": "Run",
-    "TestNG.Multimi (1).executor": "Run",
-    "TestNG.Multimi.executor": "Run",
-    "TestNG.Multimi.metodaTest.executor": "Run",
-    "TestNG.OOPTest.executor": "Run",
-    "TestNG.OOPTest.metodaTest.executor": "Run",
-    "TestNG.StructuriAlternative (1).executor": "Run",
-    "TestNG.StructuriAlternative (2).executor": "Run",
-    "TestNG.StructuriAlternative (3).executor": "Debug",
-    "TestNG.StructuriAlternative.executor": "Run",
-    "TestNG.StructuriAlternative.metodaTest.executor": "Run",
-    "TestNG.Student.prezentareStudent.executor": "Run",
-    "git-widget-placeholder": "OOP-Lesson12",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/mibudeanu/IdeaProjects/JavaTutorial/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.editor",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Exceptia1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.AvionTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AvionTest.metodaTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Book.displayBookInfo.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Book.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Locuinta.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Masina.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Masina.metodaTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Multimi (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Multimi.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Multimi.metodaTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.OOPTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.OOPTest.metodaTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.StructuriAlternative (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.StructuriAlternative (2).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.StructuriAlternative (3).executor&quot;: &quot;Debug&quot;,
+    &quot;TestNG.StructuriAlternative.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.StructuriAlternative.metodaTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Student.prezentareStudent.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;OOP-Lesson12&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/mibudeanu/IdeaProjects/JavaTutorial/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="TestNG.OOPTest.metodaTest">
     <configuration name="Exceptia1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Exceptii.Exceptia1" />
@@ -221,7 +217,9 @@
       <workItem from="1745393296287" duration="12724000" />
       <workItem from="1745840346796" duration="8589000" />
       <workItem from="1746189800064" duration="1246000" />
-      <workItem from="1747219298981" duration="2322000" />
+      <workItem from="1747219298981" duration="2461000" />
+      <workItem from="1747227202459" duration="17000" />
+      <workItem from="1747227463072" duration="11000" />
     </task>
     <task id="LOCAL-00001" summary="Project created">
       <option name="closed" value="true" />
@@ -335,7 +333,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745487479964</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="- created a new package OOP&#10;- Created 4 classes">
+      <option name="closed" value="true" />
+      <created>1747221780629</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1747221780629</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -379,7 +385,8 @@
     <MESSAGE value="- imported scanner&#10;- created method citireNote and exemplified while structure&#10;- created method printare valori for practice purposes of the while structure&#10;- created method printareValoriDoWhile and exemplified the do while structure &#10;- created method printareValoriFor and exemplified the for structure" />
     <MESSAGE value="- created a new package ObiectConstructor&#10;- created 2 new classes Avion.java and AvionTest.java" />
     <MESSAGE value="- created a new package Exceptii with 2 classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="- created a new package Exceptii with 2 classes" />
+    <MESSAGE value="- created a new package OOP&#10;- Created 4 classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="- created a new package OOP&#10;- Created 4 classes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
