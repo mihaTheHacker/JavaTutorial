@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42de26ce-446d-432a-a2e0-b4661effd515" name="Changes" comment="- created a new package OOP&#10;- Created 4 classes">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/OOP/Angajat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OOP/Angajat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/OOP/OOPTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OOP/OOPTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/OOP/Persoana.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OOP/Persoana.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/OOP/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OOP/Student.java" afterDir="false" />
-    </list>
+    <list default="true" id="42de26ce-446d-432a-a2e0-b4661effd515" name="Changes" comment="- Lectia curs Incapsulare" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -354,7 +348,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748114218302</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="- Lectia curs Incapsulare">
+      <option name="closed" value="true" />
+      <created>1748178492569</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1748178492569</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -399,7 +401,8 @@
     <MESSAGE value="- created a new package ObiectConstructor&#10;- created 2 new classes Avion.java and AvionTest.java" />
     <MESSAGE value="- created a new package Exceptii with 2 classes" />
     <MESSAGE value="- created a new package OOP&#10;- Created 4 classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="- created a new package OOP&#10;- Created 4 classes" />
+    <MESSAGE value="- Lectia curs Incapsulare" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Lectia curs Incapsulare" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
