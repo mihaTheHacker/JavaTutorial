@@ -6,6 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="42de26ce-446d-432a-a2e0-b4661effd515" name="Changes" comment="- created a new package OOP&#10;- Created 4 classes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/OOP/Angajat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OOP/Angajat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/OOP/OOPTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OOP/OOPTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/OOP/Persoana.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OOP/Persoana.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/OOP/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OOP/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +26,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Exceptii" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -166,9 +170,9 @@
       <list>
         <item itemvalue="TestNG.OOPTest.metodaTest" />
         <item itemvalue="TestNG.OOPTest" />
-        <item itemvalue="Application.Exceptia1" />
-        <item itemvalue="TestNG.AvionTest" />
         <item itemvalue="TestNG.AvionTest.metodaTest" />
+        <item itemvalue="TestNG.AvionTest" />
+        <item itemvalue="Application.Exceptia1" />
       </list>
     </recent_temporary>
   </component>

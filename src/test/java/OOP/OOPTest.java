@@ -12,6 +12,8 @@ public class OOPTest {
 
         Angajat Andrei = new Angajat("Andrei", "Ion", 30, "Google", 5, 20);
         Andrei.infoAngajat();
+
+        Andrei.promovare();
     }
 
 }
