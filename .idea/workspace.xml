@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42de26ce-446d-432a-a2e0-b4661effd515" name="Changes" comment="- created a new package OOP&#10;- Created 4 classes">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="42de26ce-446d-432a-a2e0-b4661effd515" name="Changes" comment="- Lectia curs Incapsulare" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,7 +20,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Exceptii" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -166,9 +164,9 @@
       <list>
         <item itemvalue="TestNG.OOPTest.metodaTest" />
         <item itemvalue="TestNG.OOPTest" />
-        <item itemvalue="Application.Exceptia1" />
-        <item itemvalue="TestNG.AvionTest" />
         <item itemvalue="TestNG.AvionTest.metodaTest" />
+        <item itemvalue="TestNG.AvionTest" />
+        <item itemvalue="Application.Exceptia1" />
       </list>
     </recent_temporary>
   </component>
@@ -350,7 +348,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748114218302</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="- Lectia curs Incapsulare">
+      <option name="closed" value="true" />
+      <created>1748178492569</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1748178492569</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -395,7 +401,8 @@
     <MESSAGE value="- created a new package ObiectConstructor&#10;- created 2 new classes Avion.java and AvionTest.java" />
     <MESSAGE value="- created a new package Exceptii with 2 classes" />
     <MESSAGE value="- created a new package OOP&#10;- Created 4 classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="- created a new package OOP&#10;- Created 4 classes" />
+    <MESSAGE value="- Lectia curs Incapsulare" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Lectia curs Incapsulare" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
