@@ -27,6 +27,11 @@ public class Student extends Persoana {
         System.out.println("Studentul " + getNume() + " si prenumele " + getPrenume() + " a absolvit facultatea " + facultate + " in anul " + an);
     }
 
+    public void mananca(){
+        System.out.println("Studentul mananca atunci cand doreste");
+        super.mananca();
+    }
+
     public String getFacultate() {
         return facultate;
     }
