@@ -4,20 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42de26ce-446d-432a-a2e0-b4661effd515" name="Changes" comment="- Lectia curs Incapsulare">
-      <change afterPath="$PROJECT_DIR$/src/test/java/OOP/Abstractizare/ClaseAbstracte/Cerc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/OOP/Abstractizare/ClaseAbstracte/FormeGeometrice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/OOP/Abstractizare/ClaseAbstracte/OOPAbstractizareTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/OOP/Abstractizare/ClaseAbstracte/Patrat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/OOP/Abstractizare/Interfete/Cerc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/OOP/Abstractizare/Interfete/FormeGeometrice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/OOP/Abstractizare/Interfete/OOPAbstractizareTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/OOP/Abstractizare/Interfete/Patrat.java" afterDir="false" />
+    <list default="true" id="42de26ce-446d-432a-a2e0-b4661effd515" name="Changes" comment="- Lectia 13, OOP Abstractizare">
+      <change afterPath="$PROJECT_DIR$/src/test/java/OOP/Abstractizare/ClaseAbstracteAnimale/Animale.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/OOP/Abstractizare/ClaseAbstracteAnimale/Caine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/OOP/Abstractizare/ClaseAbstracteAnimale/Lup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/OOP/Abstractizare/ClaseAbstracteAnimale/OOPAbstractizareTestAnimale.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/OOP/Abstractizare/ClaseAbstracteAnimale/Pisica.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/OOP/Angajat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OOP/Angajat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/OOP/OOPTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OOP/OOPTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/OOP/Persoana.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OOP/Persoana.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/OOP/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OOP/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/OOP/Abstractizare/ClaseAbstracte/OOPAbstractizareTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OOP/Abstractizare/ClaseAbstracte/OOPAbstractizareTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +29,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="OOP-Lesson-12-Part2-Java" />
+        <entry key="$PROJECT_DIR$" value="Lesson-13-Oop-Part3-Java" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -71,6 +65,8 @@
     "TestNG.OOPAbstractizareTest (1).executor": "Run",
     "TestNG.OOPAbstractizareTest.executor": "Run",
     "TestNG.OOPAbstractizareTest.metodaTest.executor": "Run",
+    "TestNG.OOPAbstractizareTestAnimale.executor": "Run",
+    "TestNG.OOPAbstractizareTestAnimale.metodaTestAnimale.executor": "Run",
     "TestNG.OOPTest.executor": "Run",
     "TestNG.OOPTest.metodaTest.executor": "Run",
     "TestNG.StructuriAlternative (1).executor": "Run",
@@ -79,7 +75,7 @@
     "TestNG.StructuriAlternative.executor": "Run",
     "TestNG.StructuriAlternative.metodaTest.executor": "Run",
     "TestNG.Student.prezentareStudent.executor": "Run",
-    "git-widget-placeholder": "OOP-Lesson12",
+    "git-widget-placeholder": "Animal-Abstraction-Practice-Homework-Lesson-13",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -99,7 +95,7 @@
       <recent name="OOP.Abstractizare" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.OOPAbstractizareTest (1)">
+  <component name="RunManager" selected="TestNG.OOPAbstractizareTestAnimale.metodaTestAnimale">
     <configuration name="OOPAbstractizareTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaTutorial" />
       <extension name="coverage">
@@ -134,6 +130,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OOPAbstractizareTestAnimale" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JavaTutorial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OOP.Abstractizare.ClaseAbstracteAnimale.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="OOP.Abstractizare.ClaseAbstracteAnimale" />
+      <option name="MAIN_CLASS_NAME" value="OOP.Abstractizare.ClaseAbstracteAnimale.OOPAbstractizareTestAnimale" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OOPAbstractizareTestAnimale.metodaTestAnimale" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JavaTutorial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OOP.Abstractizare.ClaseAbstracteAnimale.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="OOP.Abstractizare.ClaseAbstracteAnimale" />
+      <option name="MAIN_CLASS_NAME" value="OOP.Abstractizare.ClaseAbstracteAnimale.OOPAbstractizareTestAnimale" />
+      <option name="METHOD_NAME" value="metodaTestAnimale" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OOPAbstractizareTest.metodaTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaTutorial" />
       <extension name="coverage">
@@ -152,48 +183,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OOPTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="JavaTutorial" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="OOP.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="OOP" />
-      <option name="MAIN_CLASS_NAME" value="OOP.OOPTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OOPTest.metodaTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="JavaTutorial" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="OOP.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="OOP" />
-      <option name="MAIN_CLASS_NAME" value="OOP.OOPTest" />
-      <option name="METHOD_NAME" value="metodaTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.OOPAbstractizareTestAnimale.metodaTestAnimale" />
+        <item itemvalue="TestNG.OOPAbstractizareTestAnimale" />
         <item itemvalue="TestNG.OOPAbstractizareTest (1)" />
         <item itemvalue="TestNG.OOPAbstractizareTest" />
         <item itemvalue="TestNG.OOPAbstractizareTest.metodaTest" />
-        <item itemvalue="TestNG.OOPTest.metodaTest" />
-        <item itemvalue="TestNG.OOPTest" />
       </list>
     </recent_temporary>
   </component>
@@ -246,7 +242,9 @@
       <workItem from="1747227202459" duration="17000" />
       <workItem from="1747227463072" duration="11000" />
       <workItem from="1748114171996" duration="662000" />
-      <workItem from="1748200653346" duration="11985000" />
+      <workItem from="1748200653346" duration="13459000" />
+      <workItem from="1748287257185" duration="958000" />
+      <workItem from="1748340507320" duration="5848000" />
     </task>
     <task id="LOCAL-00001" summary="Project created">
       <option name="closed" value="true" />
@@ -392,7 +390,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748200785855</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="- Lectia 13, OOP Abstractizare">
+      <option name="closed" value="true" />
+      <created>1748287128443</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1748287128443</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -438,7 +444,8 @@
     <MESSAGE value="- created a new package Exceptii with 2 classes" />
     <MESSAGE value="- created a new package OOP&#10;- Created 4 classes" />
     <MESSAGE value="- Lectia curs Incapsulare" />
-    <option name="LAST_COMMIT_MESSAGE" value="- Lectia curs Incapsulare" />
+    <MESSAGE value="- Lectia 13, OOP Abstractizare" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Lectia 13, OOP Abstractizare" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

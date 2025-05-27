@@ -12,8 +12,6 @@ public class OOPAbstractizareTest {
         cerc.setRaza(5);
         cerc.calculareAria();
 
-
-
         Patrat patrat = new Patrat();
         patrat.setLatura(10);
         patrat.calculareAria();
