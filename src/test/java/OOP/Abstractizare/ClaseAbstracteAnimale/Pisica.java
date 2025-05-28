@@ -44,4 +44,7 @@ public class Pisica extends Animale {
     public void setVarsta(int varsta) {
         this.varsta = varsta;
     }
+    public void prindeSoareci() {
+        System.out.println("Pisica prinde soareci.");
+    }
 }

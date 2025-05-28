@@ -44,4 +44,7 @@ public class Lup extends Animale {
     public void setVarsta(int varsta) {
         this.varsta = varsta;
     }
+    public void umblaInHaita() {
+        System.out.println("Lupul umbla in haita.");
+    }
 }

@@ -46,4 +46,8 @@ public class Caine extends Animale {
     public void setVarsta(int varsta) {
         this.varsta = varsta;
     }
+
+    public void pazesteCasa() {
+        System.out.println("Cainele din rasa " + rasa + " pazeste casa.");
+    }
 }
