@@ -14,6 +14,7 @@ public class OOPAbstractizareTestAnimale {
         caine.checkVarstaAnimal();
         caine.getSunetAnimal();
         caine.checkCuloareAnimal();
+        caine.pazesteCasa();
 
         Pisica pisica = new Pisica();
         pisica.setRasa("Persana");
@@ -22,6 +23,7 @@ public class OOPAbstractizareTestAnimale {
         pisica.getSunetAnimal();
         pisica.checkCuloareAnimal();
         pisica.checkVarstaAnimal();
+        pisica.prindeSoareci();
 
         Lup lup = new Lup();
         lup.setRasa("Euroasiatic");
@@ -30,6 +32,7 @@ public class OOPAbstractizareTestAnimale {
         lup.getSunetAnimal();
         lup.checkCuloareAnimal();
         lup.checkVarstaAnimal();
+        lup.umblaInHaita();
 
     }
 }

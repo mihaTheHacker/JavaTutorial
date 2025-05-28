@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42de26ce-446d-432a-a2e0-b4661effd515" name="Changes" comment="- Lectia 13, OOP Abstractizare">
-      <change afterPath="$PROJECT_DIR$/src/test/java/OOP/Abstractizare/ClaseAbstracteAnimale/Animale.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/OOP/Abstractizare/ClaseAbstracteAnimale/Caine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/OOP/Abstractizare/ClaseAbstracteAnimale/Lup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/OOP/Abstractizare/ClaseAbstracteAnimale/OOPAbstractizareTestAnimale.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/OOP/Abstractizare/ClaseAbstracteAnimale/Pisica.java" afterDir="false" />
+    <list default="true" id="42de26ce-446d-432a-a2e0-b4661effd515" name="Changes" comment="- Am rezolvat Tema de la lectia 13,Animale, OOP Abstractizare">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/OOP/Abstractizare/ClaseAbstracte/OOPAbstractizareTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OOP/Abstractizare/ClaseAbstracte/OOPAbstractizareTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/OOP/Abstractizare/ClaseAbstracteAnimale/Animale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OOP/Abstractizare/ClaseAbstracteAnimale/Animale.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/OOP/Abstractizare/ClaseAbstracteAnimale/Caine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OOP/Abstractizare/ClaseAbstracteAnimale/Caine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/OOP/Abstractizare/ClaseAbstracteAnimale/Lup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OOP/Abstractizare/ClaseAbstracteAnimale/Lup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/OOP/Abstractizare/ClaseAbstracteAnimale/OOPAbstractizareTestAnimale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OOP/Abstractizare/ClaseAbstracteAnimale/OOPAbstractizareTestAnimale.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/OOP/Abstractizare/ClaseAbstracteAnimale/Pisica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OOP/Abstractizare/ClaseAbstracteAnimale/Pisica.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +94,7 @@
       <recent name="OOP.Abstractizare" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.OOPAbstractizareTestAnimale.metodaTestAnimale">
+  <component name="RunManager" selected="TestNG.OOPAbstractizareTestAnimale">
     <configuration name="OOPAbstractizareTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaTutorial" />
       <extension name="coverage">
@@ -185,8 +184,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.OOPAbstractizareTestAnimale.metodaTestAnimale" />
         <item itemvalue="TestNG.OOPAbstractizareTestAnimale" />
+        <item itemvalue="TestNG.OOPAbstractizareTestAnimale.metodaTestAnimale" />
         <item itemvalue="TestNG.OOPAbstractizareTest (1)" />
         <item itemvalue="TestNG.OOPAbstractizareTest" />
         <item itemvalue="TestNG.OOPAbstractizareTest.metodaTest" />
@@ -244,7 +243,7 @@
       <workItem from="1748114171996" duration="662000" />
       <workItem from="1748200653346" duration="13459000" />
       <workItem from="1748287257185" duration="958000" />
-      <workItem from="1748340507320" duration="5848000" />
+      <workItem from="1748340507320" duration="13644000" />
     </task>
     <task id="LOCAL-00001" summary="Project created">
       <option name="closed" value="true" />
@@ -398,7 +397,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748287128443</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="- Am rezolvat Tema de la lectia 13,Animale, OOP Abstractizare">
+      <option name="closed" value="true" />
+      <created>1748349054779</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1748349054779</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -445,7 +452,8 @@
     <MESSAGE value="- created a new package OOP&#10;- Created 4 classes" />
     <MESSAGE value="- Lectia curs Incapsulare" />
     <MESSAGE value="- Lectia 13, OOP Abstractizare" />
-    <option name="LAST_COMMIT_MESSAGE" value="- Lectia 13, OOP Abstractizare" />
+    <MESSAGE value="- Am rezolvat Tema de la lectia 13,Animale, OOP Abstractizare" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Am rezolvat Tema de la lectia 13,Animale, OOP Abstractizare" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
