@@ -8,8 +8,11 @@ public class OOPTest {
     public void metodaTest() {
 
         Student Tim = new Student("Tim", "Pop", 20, "Info", "Anul 2", true);
-//        Tim.infoStudent();
-//        Tim.mananca();
+        Tim.infoStudent();
+        Tim.mananca();
+        Tim.infoPersoana();
+
+        Persoana Pavell = new Persoana("Pavell", "Ionescu", 25);
 
         Angajat Andrei = new Angajat("Andrei", "Ion", 30, "Google", 5, 20);
         Andrei.infoAngajat();
@@ -19,6 +22,8 @@ public class OOPTest {
         Andrei.marire();
         Andrei.marire(10);
         Andrei.marire("consultant");
+
+        Andrei.firma = "Endava";
    }
 
 }

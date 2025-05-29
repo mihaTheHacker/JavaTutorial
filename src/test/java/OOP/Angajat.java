@@ -4,7 +4,14 @@ import OOP.Abstractizare.AngajatInt;
 
 public class Angajat extends Persoana implements AngajatInt {
 
-    private String firma;
+    //public - codul se poate accesa de oriunde si de orice clasa
+    //private - codul se paote accesa doar din clasa unde s-s scris codul
+    //protected - codul se poate accesa doar din pachetul unde s-a scris codul si din clasele care mostenesc clasa respectiva(oop)
+    //default - codul se poate accesa doar din pachetul din care s-a scris codul
+    //intra pe default daca nu specifici nimic
+    //
+
+    protected String firma;
     private Integer experienta;
     private Integer zileConcediu;
 

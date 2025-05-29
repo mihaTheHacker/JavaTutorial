@@ -47,7 +47,7 @@ public class Persoana {
         this.varsta = varsta;
     }
 
-    public void infoPersoana() {
+    protected void infoPersoana() {
         System.out.println("Nume: " + nume);
         System.out.println("Prenume: " + prenume);
         System.out.println("Varsta: " + varsta);
