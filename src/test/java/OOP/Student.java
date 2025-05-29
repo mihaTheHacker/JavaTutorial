@@ -1,6 +1,8 @@
 package OOP;
 
-public class Student extends Persoana {
+import OOP.Abstractizare.StudentInt;
+
+public class Student extends Persoana implements StudentInt {
 
     private String facultate;
     private String an;
@@ -50,5 +52,23 @@ public class Student extends Persoana {
 
     public void setAn(String an) {
         this.an = an;
+    }
+
+    @Override
+    public void mergeLaCurs() {
+        System.out.println("Studentul merge la cursuri.");
+
+    }
+
+    @Override
+    public void sustineExamen() {
+        System.out.println("Studentul sustine examen.");
+
+    }
+
+    @Override
+    public void mergeLaCafea() {
+        System.out.println("Studentul merge la cafea.");
+
     }
 }

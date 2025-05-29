@@ -1,8 +1,17 @@
 package OOP;
 
-public class Angajat extends Persoana {
+import OOP.Abstractizare.AngajatInt;
 
-    private String firma;
+public class Angajat extends Persoana implements AngajatInt {
+
+    //public - codul se poate accesa de oriunde si de orice clasa
+    //private - codul se paote accesa doar din clasa unde s-s scris codul
+    //protected - codul se poate accesa doar din pachetul unde s-a scris codul si din clasele care mostenesc clasa respectiva(oop)
+    //default - codul se poate accesa doar din pachetul din care s-a scris codul
+    //intra pe default daca nu specifici nimic
+    //
+
+    protected String firma;
     private Integer experienta;
     private Integer zileConcediu;
 
@@ -65,5 +74,28 @@ public class Angajat extends Persoana {
 
     public void setZileConcediu(Integer zileConcediu) {
         this.zileConcediu = zileConcediu;
+    }
+
+    @Override
+    public void mergeLaMunca() {
+        System.out.println("Angajatul merge la munca");
+
+    }
+
+    @Override
+    public void primesteSalariu() {
+        System.out.println("Angajatul primeste salariu");
+
+    }
+
+    @Override
+    public void mergeInPauza() {
+        System.out.println("Angajatul merge in pauza");
+
+    }
+
+    @Override
+    public void prezintaDemisie() {
+        System.out.println("Angajatul nu pleaca din firma");
     }
 }
