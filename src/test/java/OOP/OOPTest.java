@@ -7,7 +7,7 @@ public class OOPTest {
 
     public void metodaTest() {
 
-//        Student Tim = new Student("Tim", "Pop", 20, "Info", "Anul 2", true);
+        Student Tim = new Student("Tim", "Pop", 20, "Info", "Anul 2", true);
 //        Tim.infoStudent();
 //        Tim.mananca();
 
@@ -18,6 +18,7 @@ public class OOPTest {
         Andrei.mananca();
         Andrei.marire();
         Andrei.marire(10);
-        Andrei.marire("consultant");}
+        Andrei.marire("consultant");
+   }
 
 }
