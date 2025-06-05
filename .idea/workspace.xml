@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42de26ce-446d-432a-a2e0-b4661effd515" name="Changes" comment="- Lectia 14,am terminat OOP">
-      <change afterPath="$PROJECT_DIR$/src/test/java/DesignPattern/SingleObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DesignPattern/SingletonDemo.java" afterDir="false" />
+    <list default="true" id="42de26ce-446d-432a-a2e0-b4661effd515" name="Changes" comment="- Lectia 17, am creat noi clase pentru a practica modificatorii static,final, primitive data&#10;- work in progress">
+      <change afterPath="$PROJECT_DIR$/src/test/java/OOP/Session20/NonAccessModifier/valueVsReferenceType/ReferenceType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/OOP/Session20/NonAccessModifier/valueVsReferenceType/ex2/MainRefTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/OOP/Session20/NonAccessModifier/valueVsReferenceType/ex2/RefTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/OOP/Angajat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OOP/Angajat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/OOP/OOPTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OOP/OOPTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/OOP/Persoana.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OOP/Persoana.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +26,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Animal-Abstraction-Practice-Homework-Lesson-13" />
+        <entry key="$PROJECT_DIR$" value="Lectia-14,-OOP-concepts-part-4" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -46,8 +44,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AngajatTest.executor": "Run",
+    "Application.CounterTest.executor": "Run",
     "Application.Exceptia1.executor": "Run",
+    "Application.FinalExample.executor": "Run",
+    "Application.InitialiserBlockTest.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.MainRefTest.executor": "Debug",
+    "Application.ReferenceType.executor": "Run",
+    "Application.TestAccessModifiers.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -74,8 +79,9 @@
     "TestNG.StructuriAlternative.executor": "Run",
     "TestNG.StructuriAlternative.metodaTest.executor": "Run",
     "TestNG.Student.prezentareStudent.executor": "Run",
-    "git-widget-placeholder": "Lectia-14,-OOP-concepts-part-4",
+    "git-widget-placeholder": "Lectia-17-Info-static-final-synchronized-value-type-reference-type",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/mibudeanu/IdeaProjects/JavaTutorial/src/test/java/OOP/Session20/NonAccessModifier/staticEx1",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -90,104 +96,86 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mibudeanu\IdeaProjects\JavaTutorial\src\test\java\OOP\Session20\NonAccessModifier\staticEx1" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="OOP.Abstractizare" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.OOPTest">
-    <configuration name="OOPAbstractizareTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.MainRefTest">
+    <configuration name="AngajatTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOP.Session20.NonAccessModifier.ex3.AngajatTest" />
       <module name="JavaTutorial" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OOP.Abstractizare.Interfete.*" />
+          <option name="PATTERN" value="OOP.Session20.NonAccessModifier.ex3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="OOP.Abstractizare.Interfete" />
-      <option name="MAIN_CLASS_NAME" value="OOP.Abstractizare.Interfete.OOPAbstractizareTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OOPAbstractizareTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CounterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOP.Session20.NonAccessModifier.synchronizedExamples.CounterTest" />
       <module name="JavaTutorial" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OOP.Abstractizare.ClaseAbstracte.*" />
+          <option name="PATTERN" value="OOP.Session20.NonAccessModifier.synchronizedExamples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="OOP.Abstractizare" />
-      <option name="MAIN_CLASS_NAME" value="OOP.Abstractizare.ClaseAbstracte.OOPAbstractizareTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OOPAbstractizareTestAnimale" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FinalExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOP.Session20.NonAccessModifier.FinalAccessModifier.ex1.FinalExample" />
       <module name="JavaTutorial" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OOP.Abstractizare.ClaseAbstracteAnimale.*" />
+          <option name="PATTERN" value="OOP.Session20.NonAccessModifier.FinalAccessModifier.ex1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="OOP.Abstractizare.ClaseAbstracteAnimale" />
-      <option name="MAIN_CLASS_NAME" value="OOP.Abstractizare.ClaseAbstracteAnimale.OOPAbstractizareTestAnimale" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OOPAbstractizareTestAnimale.metodaTestAnimale" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MainRefTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOP.Session20.NonAccessModifier.valueVsReferenceType.ex2.MainRefTest" />
       <module name="JavaTutorial" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OOP.Abstractizare.ClaseAbstracteAnimale.*" />
+          <option name="PATTERN" value="OOP.Session20.NonAccessModifier.valueVsReferenceType.ex2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="OOP.Abstractizare.ClaseAbstracteAnimale" />
-      <option name="MAIN_CLASS_NAME" value="OOP.Abstractizare.ClaseAbstracteAnimale.OOPAbstractizareTestAnimale" />
-      <option name="METHOD_NAME" value="metodaTestAnimale" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OOPTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ReferenceType" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOP.Session20.NonAccessModifier.valueVsReferenceType.ReferenceType" />
       <module name="JavaTutorial" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OOP.*" />
+          <option name="PATTERN" value="OOP.Session20.NonAccessModifier.valueVsReferenceType.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="OOP" />
-      <option name="MAIN_CLASS_NAME" value="OOP.OOPTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.OOPTest" />
-        <item itemvalue="TestNG.OOPAbstractizareTestAnimale" />
-        <item itemvalue="TestNG.OOPAbstractizareTestAnimale.metodaTestAnimale" />
-        <item itemvalue="TestNG.OOPAbstractizareTest (1)" />
-        <item itemvalue="TestNG.OOPAbstractizareTest" />
+        <item itemvalue="Application.MainRefTest" />
+        <item itemvalue="Application.ReferenceType" />
+        <item itemvalue="Application.CounterTest" />
+        <item itemvalue="Application.FinalExample" />
+        <item itemvalue="Application.AngajatTest" />
       </list>
     </recent_temporary>
   </component>
@@ -242,7 +230,9 @@
       <workItem from="1748114171996" duration="662000" />
       <workItem from="1748200653346" duration="13459000" />
       <workItem from="1748287257185" duration="958000" />
-      <workItem from="1748340507320" duration="24323000" />
+      <workItem from="1748340507320" duration="24406000" />
+      <workItem from="1748585616450" duration="658000" />
+      <workItem from="1749044222380" duration="15615000" />
     </task>
     <task id="LOCAL-00001" summary="Project created">
       <option name="closed" value="true" />
@@ -420,7 +410,23 @@
       <option name="project" value="LOCAL" />
       <updated>1748527832178</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="- Lectia 14,am adaugat modificatori de access si singleton">
+      <option name="closed" value="true" />
+      <created>1748530404048</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1748530404048</updated>
+    </task>
+    <task id="LOCAL-00024" summary="- Lectia 17, am creat noi clase pentru a practica modificatorii static,final, primitive data&#10;- work in progress">
+      <option name="closed" value="true" />
+      <created>1749068003441</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1749068003441</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -470,7 +476,9 @@
     <MESSAGE value="- Am rezolvat Tema de la lectia 13,Animale, OOP Abstractizare" />
     <MESSAGE value="- La lectia 13,Animale, OOP Abstractizare am adaugat metode specifice fiecarei clase de animale" />
     <MESSAGE value="- Lectia 14,am terminat OOP" />
-    <option name="LAST_COMMIT_MESSAGE" value="- Lectia 14,am terminat OOP" />
+    <MESSAGE value="- Lectia 14,am adaugat modificatori de access si singleton" />
+    <MESSAGE value="- Lectia 17, am creat noi clase pentru a practica modificatorii static,final, primitive data&#10;- work in progress" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Lectia 17, am creat noi clase pentru a practica modificatorii static,final, primitive data&#10;- work in progress" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
