@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42de26ce-446d-432a-a2e0-b4661effd515" name="Changes" comment="- Lectia 14,am adaugat modificatori de access si singleton">
-      <change afterPath="$PROJECT_DIR$/src/test/java/OOP/Session20/NonAccessModifier/FinalAccessModifier/ex1/FinalExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/OOP/Session20/NonAccessModifier/FinalAccessModifier/ex2/FinalClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/OOP/Session20/NonAccessModifier/FinalAccessModifier/ex2/FinalClassExtended.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/OOP/Session20/NonAccessModifier/staticEx1/StaticAccessModifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/OOP/Session20/NonAccessModifier/staticEx1/TestAccessModifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/OOP/Session20/NonAccessModifier/staticEx1/ex2/InitialiserBlockTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/OOP/Session20/NonAccessModifier/staticEx1/ex3/Angajat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/OOP/Session20/NonAccessModifier/staticEx1/ex3/AngajatTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/OOP/Session20/NonAccessModifier/synchronizedExamples/Counter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/OOP/Session20/NonAccessModifier/synchronizedExamples/CounterTest.java" afterDir="false" />
+    <list default="true" id="42de26ce-446d-432a-a2e0-b4661effd515" name="Changes" comment="- Lectia 17, am creat noi clase pentru a practica modificatorii static,final, primitive data&#10;- work in progress">
+      <change afterPath="$PROJECT_DIR$/src/test/java/OOP/Session20/NonAccessModifier/valueVsReferenceType/ReferenceType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/OOP/Session20/NonAccessModifier/valueVsReferenceType/ex2/MainRefTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/OOP/Session20/NonAccessModifier/valueVsReferenceType/ex2/RefTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,6 +50,8 @@
     "Application.FinalExample.executor": "Run",
     "Application.InitialiserBlockTest.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.MainRefTest.executor": "Debug",
+    "Application.ReferenceType.executor": "Run",
     "Application.TestAccessModifiers.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -108,7 +103,7 @@
       <recent name="OOP.Abstractizare" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CounterTest">
+  <component name="RunManager" selected="Application.MainRefTest">
     <configuration name="AngajatTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OOP.Session20.NonAccessModifier.ex3.AngajatTest" />
       <module name="JavaTutorial" />
@@ -148,12 +143,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InitialiserBlockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOP.Session20.NonAccessModifier.ex2.InitialiserBlockTest" />
+    <configuration name="MainRefTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOP.Session20.NonAccessModifier.valueVsReferenceType.ex2.MainRefTest" />
       <module name="JavaTutorial" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OOP.Session20.NonAccessModifier.ex2.*" />
+          <option name="PATTERN" value="OOP.Session20.NonAccessModifier.valueVsReferenceType.ex2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,12 +156,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestAccessModifier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOP.Session20.NonAccessModifier.staticEx1.TestAccessModifier" />
+    <configuration name="ReferenceType" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOP.Session20.NonAccessModifier.valueVsReferenceType.ReferenceType" />
       <module name="JavaTutorial" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OOP.Session20.NonAccessModifier.staticEx1.*" />
+          <option name="PATTERN" value="OOP.Session20.NonAccessModifier.valueVsReferenceType.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainRefTest" />
+        <item itemvalue="Application.ReferenceType" />
         <item itemvalue="Application.CounterTest" />
         <item itemvalue="Application.FinalExample" />
         <item itemvalue="Application.AngajatTest" />
-        <item itemvalue="Application.InitialiserBlockTest" />
-        <item itemvalue="Application.TestAccessModifiers" />
       </list>
     </recent_temporary>
   </component>
@@ -237,7 +232,7 @@
       <workItem from="1748287257185" duration="958000" />
       <workItem from="1748340507320" duration="24406000" />
       <workItem from="1748585616450" duration="658000" />
-      <workItem from="1749044222380" duration="11664000" />
+      <workItem from="1749044222380" duration="15615000" />
     </task>
     <task id="LOCAL-00001" summary="Project created">
       <option name="closed" value="true" />
@@ -423,7 +418,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748530404048</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="- Lectia 17, am creat noi clase pentru a practica modificatorii static,final, primitive data&#10;- work in progress">
+      <option name="closed" value="true" />
+      <created>1749068003441</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1749068003441</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -474,7 +477,8 @@
     <MESSAGE value="- La lectia 13,Animale, OOP Abstractizare am adaugat metode specifice fiecarei clase de animale" />
     <MESSAGE value="- Lectia 14,am terminat OOP" />
     <MESSAGE value="- Lectia 14,am adaugat modificatori de access si singleton" />
-    <option name="LAST_COMMIT_MESSAGE" value="- Lectia 14,am adaugat modificatori de access si singleton" />
+    <MESSAGE value="- Lectia 17, am creat noi clase pentru a practica modificatorii static,final, primitive data&#10;- work in progress" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Lectia 17, am creat noi clase pentru a practica modificatorii static,final, primitive data&#10;- work in progress" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
